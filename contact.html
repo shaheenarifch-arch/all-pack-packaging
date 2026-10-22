@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact All Pack | Start Your Packaging Project</title>
+<meta name="description" content="Contact All Pack to discuss your luxury packaging project. Send a brief, call the London studio and expect a senior reply within one business day.">
+<meta property="og:title" content="Contact All Pack | Start Your Packaging Project">
+<meta property="og:description" content="Share your brief with our London studio. A senior designer will reply within one business day.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script src="site.js" defer></script>
+</head>
+<body class="theme-dark">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="All Pack, home">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 30 16 16 30 2 16Z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M16 9 23 16 16 23 9 16Z" fill="currentColor"/></svg>
+      <span class="brand__name">All Pack</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Menu</span><span class="nav-toggle__bars" aria-hidden="true"></span>
+    </button>
+    <nav id="primary-nav" class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <a class="btn btn--gold btn--sm" href="contact.html">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero texture">
+  <div class="container">
+    <p class="eyebrow reveal">Contact</p>
+    <h1 class="reveal" style="--d:80ms">Let&rsquo;s begin with a <em>conversation.</em></h1>
+    <p class="lede reveal" style="--d:160ms">Tell us what you are launching and who it is for. The more we know, the more useful our first reply will be.</p>
+  </div>
+</section>
+
+<section class="section theme-light" aria-labelledby="form-title">
+  <div class="container contact">
+    <div class="reveal">
+      <h2 id="form-title" class="h3-like">Send us your brief</h2>
+      <form class="form" id="contact-form" novalidate>
+        <div class="form__row">
+          <div class="field">
+            <label for="name">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label for="company">Brand or company</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="type">Packaging type</label>
+            <select id="type" name="type">
+              <option>Rigid presentation box</option>
+              <option>Luxury folding carton</option>
+              <option>Insert or unboxing design</option>
+              <option>Bags, sleeves or wraps</option>
+              <option>Limited edition or gifting</option>
+              <option>E-commerce shipper</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label for="qty">Approximate quantity</label>
+            <select id="qty" name="qty">
+              <option>Under 500</option>
+              <option>500 &ndash; 2,000</option>
+              <option>2,000 &ndash; 10,000</option>
+              <option>10,000+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="date">Target launch date</label>
+            <input id="date" name="date" type="text" placeholder="e.g. October 2026">
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">About your project <span class="req" aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="6" required aria-describedby="msg-hint"></textarea>
+          <p class="hint" id="msg-hint">Product, audience, finishes you admire, budget range: whatever helps.</p>
+        </div>
+        <p class="form__error" id="form-error" role="alert" hidden>Please complete your name, a valid email address and a short description of your project.</p>
+        <div class="form__actions">
+          <button class="btn btn--dark" type="submit">Send enquiry</button>
+          <p class="hint">Sending opens your email app with your enquiry ready to go. Nothing is stored on this site.</p>
+        </div>
+        <div class="form__success" id="form-success" role="status" tabindex="-1" hidden>
+          <strong>Thank you. Your enquiry is ready to send.</strong>
+          <p>Your email app should now be open with your message. If it did not open, write to <a href="mailto:hello@allpack.co">hello@allpack.co</a> and we will reply within one business day.</p>
+        </div>
+      </form>
+    </div>
+
+    <aside class="info reveal" style="--d:120ms" aria-labelledby="info-title">
+      <h2 id="info-title" class="h3-like">Business information</h2>
+      <dl class="info__list">
+        <div><dt>Studio &amp; workshop</dt><dd>22 Wharf Street, Studio 4<br>London EC2A 3PQ<br>United Kingdom</dd></div>
+        <div><dt>Telephone</dt><dd><a href="tel:+442079460142">+44 20 7946 0142</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:hello@allpack.co">hello@allpack.co</a></dd></div>
+        <div><dt>Opening hours</dt><dd>Monday &ndash; Friday, 09:00 &ndash; 17:30 GMT<br>Studio visits by appointment</dd></div>
+      </dl>
+      <p class="info__note">We ship worldwide and work with brands across Europe, North America and the Middle East.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="section theme-dark texture" aria-labelledby="resp-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Response expectations</p>
+      <h2 id="resp-title">What happens after you write to us.</h2>
+    </div>
+    <ol class="grid grid--3 expect">
+      <li class="card reveal">
+        <span class="badge">Within 1 business day</span>
+        <h3>A personal reply</h3>
+        <p>A senior member of the team confirms receipt, asks any clarifying questions and suggests a time to talk.</p>
+      </li>
+      <li class="card reveal" style="--d:100ms">
+        <span class="badge">Within 3 business days</span>
+        <h3>Discovery conversation</h3>
+        <p>A 30-minute call or studio visit to understand your product, audience, finishes and schedule.</p>
+      </li>
+      <li class="card reveal" style="--d:200ms">
+        <span class="badge">Within 7 business days</span>
+        <h3>Proposal &amp; samples</h3>
+        <p>A clear quotation with structural recommendations, plus a selection of finish samples sent to you.</p>
+      </li>
+    </ol>
+    <div class="faq reveal">
+      <details>
+        <summary>Is there a minimum order quantity?</summary>
+        <p>It depends on the format. Limited editions start from 100 units, rigid boxes from 300 and folding cartons from 1,000.</p>
+      </details>
+      <details>
+        <summary>Can you work to an existing brand guideline?</summary>
+        <p>Absolutely. We regularly translate established identities into packaging, including exact colour matching and typography.</p>
+      </details>
+      <details>
+        <summary>Do you offer rush schedules?</summary>
+        <p>For established designs, we can often compress production to five or six weeks. Mention your date in your brief.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a class="brand" href="index.html" aria-label="All Pack, home">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 30 16 16 30 2 16Z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M16 9 23 16 16 23 9 16Z" fill="currentColor"/></svg>
+        <span class="brand__name">All Pack</span>
+      </a>
+      <p>Sophisticated packaging solutions for discerning brands.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2 class="footer__title">Explore</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="footer__title">Studio</h2>
+      <address>
+        22 Wharf Street, Studio 4<br>London EC2A 3PQ<br>
+        <a href="tel:+442079460142">+44 20 7946 0142</a><br>
+        <a href="mailto:hello@allpack.co">hello@allpack.co</a>
+      </address>
+    </div>
+    <div>
+      <h2 class="footer__title">Hours</h2>
+      <p>Monday to Friday<br>09:00 &ndash; 17:30 GMT<br>Studio visits by appointment</p>
+    </div>
+  </div>
+  <div class="container footer__bar">
+    <p>&copy; <span data-year>2026</span> All Pack. All rights reserved.</p>
+    <a href="#main">Back to top &uarr;</a>
+  </div>
+</footer>
+</body>
+</html>
